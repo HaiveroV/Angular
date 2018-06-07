@@ -1,0 +1,14 @@
+#myCarousel{
+    width: 900px;
+    height: 450px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousel-inner > .item > img{
+    width: 900px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}

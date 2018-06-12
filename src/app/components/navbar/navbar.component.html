@@ -6,7 +6,7 @@
     <ul class="nav navbar-nav">
       <li><a routerLink="/home" routerLinkActive="active">Начало</a></li>
       <li><a routerLink="/about" routerLinkActive="active">Информация</a></li>
-      <li><a href="#">Статии</a></li>
+      <li><a routerLink="/articles" routerLinkActive="active">Статии</a></li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a routerLink="/register" routerLinkActive="active" *ngIf="isUserLogged() == false">Регистрирай се</a></li>

@@ -9,7 +9,6 @@ import {AboutComponent} from './components/about/about.component';
 import {NotFoundComponent} from './components/not-found/not-found.component';
 import {FooterComponent} from './components/footer/footer.component';
 import {NavbarComponent} from './components/navbar/navbar.component';
-import {SearchComponent} from './components/search/search.component';
 import {TimelineComponent} from './components/timeline/timeline.component';
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
@@ -25,7 +24,8 @@ const appRoutes: Routes = [
   { path: 'home', component: HomepageComponent},
   { path: 'about', component: AboutComponent},
   { path: 'register', component: RegisterComponent},
-  { path: 'login', component: LoginComponent}
+  { path: 'login', component: LoginComponent},
+  {path: 'articles', component: ArticlesComponent},
   ];
 
 @NgModule({
@@ -36,11 +36,10 @@ const appRoutes: Routes = [
     NotFoundComponent,
     FooterComponent,
     NavbarComponent,
-    SearchComponent,
     TimelineComponent,
     LoginComponent,
     RegisterComponent,
-    ArticlesComponent
+    ArticlesComponent,
 
   ],
   imports: [

@@ -22,3 +22,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .navbar-inverse .navbar-nav>li>a {
     color: black;
 }
+
+.navbar.navbar-inverse > .container-fluid > nav.navbar-nav{
+    align-content: center;
+}
+

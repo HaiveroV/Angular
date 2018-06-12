@@ -16,6 +16,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { FormsModule } from '@angular/forms';
 import { AuthGuard } from './auth-guard';
 import { AuthService } from './auth-service.service';
+import { ArticlesComponent } from './components/articles/articles.component';
 
 
 const appRoutes: Routes = [
@@ -38,7 +39,8 @@ const appRoutes: Routes = [
     SearchComponent,
     TimelineComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ArticlesComponent
 
   ],
   imports: [
